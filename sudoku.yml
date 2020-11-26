@@ -1,0 +1,21 @@
+
+name: sudoku
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab>=2.0.0
+  - matplotlib>=3.2.2
+  - numpy
+  - pandas>=1.0.5
+  - pillow>=7.1.2
+  - python>=3.8
+  - pip>=20
+  - scikit-learn>=0.23.1
+  - altair>=4.1.0
+  - pip:
+    - networkx>=2.5
+    - pulp>=2.3
+    - numba>=0.50.1
+    - joblib>=0.17.0
+    - snakeviz>=2.1.0
